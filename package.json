@@ -1,12 +1,18 @@
 {
   "name": "melo",
   "version": "1.0.0",
-  "description": "",
+  "description": "React app with Vite",
   "main": "index.js",
   "scripts": {
-    "test": "echo npm run build && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "start": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  }
 }
