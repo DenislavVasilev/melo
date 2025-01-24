@@ -2,7 +2,7 @@
   "name": "melo",
   "version": "1.0.0",
   "description": "React app with Vite",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
